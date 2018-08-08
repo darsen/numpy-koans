@@ -1,0 +1,2 @@
+# Lines starting with # are ignored.
+koans.about_arrays.AboutArrays
