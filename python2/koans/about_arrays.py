@@ -16,11 +16,20 @@ class AboutArrays(Koan):
 
     def test_array_to_numpy_array_and_back(self):
         numpy_array = array([[1,2],[3,4]])
-        self.assertEquals(__, list(reversed(numpy_array.tolist())))  # This should be True
+        self.assertEquals(__, list(reversed(numpy_array.tolist())))
 
     def test_array_shape(self):
-        """
-        We shall contemplate truth by testing reality, via asserts.
-        """
         numpy_array = array([1,2])
-        self.assertEquals(__, numpy_array.shape)  # This should be True
+        self.assertEquals(__, numpy_array.shape)
+
+    def test_array_dtype(self):
+        numpy_array = array([1.0, 2.0])
+        self.assertEquals(__, numpy_array.dtype)
+
+    def test_array_dtype(self):
+        numpy_array = array([1.0, 2.0])
+        self.assertEquals(__, numpy_array.dtype)
+
+    def test_array_type(self):
+        numpy_array = array([1.0, 2.0])
+        self.assertEquals(__, type(numpy_array))

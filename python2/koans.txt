@@ -1,2 +1,5 @@
 # Lines starting with # are ignored.
 koans.about_arrays.AboutArrays
+koans.about_zeros.AboutZeros
+koans.about_zeros.AboutOnes
+koans.about_zeros.AboutZeros
